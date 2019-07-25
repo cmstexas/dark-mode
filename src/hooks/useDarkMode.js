@@ -3,12 +3,12 @@ import { useEffect } from 'react'
 
 
 
-const useDarkMode = () => {
-    const [isDark, setIsDark] = useLocalStorage('isOn');
+const useDarkMode = (ivalue) => {
+    const [isDark, setIsDark] = useLocalStorage('isOn', ivalue);
     console.log(isDark)
 
         useEffect(() => {
-            if(isDark === 'true'){
+            if(isDark === true){
                 document.body.classList.add('dark-mode')
                 // document.querySelector('body').classList.add('dark-mode')
             }
