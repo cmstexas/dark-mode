@@ -10,7 +10,7 @@ This project allows you to practice the concepts and techniques learned in this 
 
 Commit your code regularly and meaningfully. This helps both you and your team lead in case you ever need to return to old code for any number of reasons.
 
-### Description
+### Description ###
 
 In this project you'll take this crypto currency tracker app and build two custom hooks that, when composed together, will allow users to set and persist a dark mode preference.
 
